@@ -102,7 +102,7 @@ To enable this for Cromwell, include the `awsBatchRetryAttempts` parameter in th
 integer number of attempts. 
 
 Even with retries, there is a risk that spot interruption will case a task or entire workflow to fail. Use of an engines call caching capabilities (if available)
-can help avoid repeating work if a partially complete workflow needs to be restarted du to Spot instance interruption.
+can help avoid repeating work if a partially complete workflow needs to be restarted due to Spot instance interruption.
 
 ## Use private ECR registries
 
